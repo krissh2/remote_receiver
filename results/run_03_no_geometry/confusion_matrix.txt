@@ -1,0 +1,15 @@
+Apvienotā confusion matrix (5-fold CV):
+
+                  Prognoze
+                  Real    Spoofed
+  Patiesi Real:   44,441     248
+  Patiesi Spoof:     618  916,405
+
+              precision    recall  f1-score   support
+
+        real       0.99      0.99      0.99     44689
+     spoofed       1.00      1.00      1.00    917023
+
+    accuracy                           1.00    961712
+   macro avg       0.99      1.00      0.99    961712
+weighted avg       1.00      1.00      1.00    961712
